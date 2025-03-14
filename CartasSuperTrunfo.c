@@ -63,3 +63,14 @@ typedef struct{
             printf("pib:%.2f\n",carta->pib);
             printf("pontos turísticos:%d\n",carta-> pontos_turisticos);
             }
+            int main(){
+                carta carta1, carta2;
+            // cadastro das cartas 
+            lercarta(&carta1 ,1);
+            lercarta(&carta2,2);
+
+            //exibição das cartas
+            exibircarta(&carta1,1);
+            exibircarta(&carta2,2);
+            return 0;
+            }
