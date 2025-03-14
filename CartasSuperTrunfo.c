@@ -51,3 +51,15 @@ typedef struct{
         scanf("%d",&carta->pontos_turisticos);
         limparbuffer();
         }
+
+        // função para exibir os dados de uma carta
+        void exibircarta(const carta*carta, int numero){
+            printf("\n---carta %d---\n",numero);
+            printf("estado:%s\n", carta->estado);
+            printf("Código:%s\n",carta->codigo);
+            printf("cidade:%s\n",carta->cidade);
+            printf("população:%d\n",carta->populacao);
+            printf("area:%.2f km\n",carta->area);
+            printf("pib:%.2f\n",carta->pib);
+            printf("pontos turísticos:%d\n",carta-> pontos_turisticos);
+            }
