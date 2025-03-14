@@ -11,3 +11,9 @@ typedef struct{
     float pib;
     int pontos_turisticos;
     } carta;
+
+    // função para limpar de entrada
+    void limparbuffer(){
+    int c;
+    while ((c = getchar()) != '\n'&& c!=EOF);
+    }
