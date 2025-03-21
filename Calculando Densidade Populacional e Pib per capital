@@ -66,5 +66,13 @@ getchar();
  printf("informe o número de pontos turisticos da cidade 2");
  scanf("%d", &pontos_turisticos2);
  getchar();
- 
+
+ // cálculos da densidade populacional e PIB per capita
+ float densidade_populacional1 = populacao1/ area1;
+ float pib_per_capita2 = pib1 *
+ 1000000000 / populacao1; // converte o PIB para reais
+ float densidade_populacional2= populacao2 / area2;
+ float pib_per_capita2 = pib2*
+ 1000000000 / populacao2;// converte o pib para reais
+  
  
