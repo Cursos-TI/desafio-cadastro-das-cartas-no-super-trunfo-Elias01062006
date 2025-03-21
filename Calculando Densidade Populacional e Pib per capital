@@ -90,5 +90,17 @@ getchar();
  printf("Números de pontos turísticos: %d\n", pontos_turisticos1);
  printf("Densidade Populacional: %.2f hab/km\n",densidade_populacional1);
  printf("PIB per capita %.2f reais\n", pib_per_capita1);
+
+ // Exibição dos resultados da Carta 2
+ printf("\ncarta2;\n");
+ printf("Estado:%s\n",estado2);
+ printf("Código:%s\n", codigo2);
+ printf("Nome da cidade:%s\n", cidade2);
+ printf("populacao:%d\n", cidade2);
+ printf("area:%.2f km\n",area2);
+ printf("PIB:%.2f bilhões de reais\n", pib2);
+ printf("Números de pontos turísticos: %d\n", pontos_turisticos2);
+ printf("Densidade Populacional: %.2f hab/km\n",densidade_populacional2);
+ printf("PIB per capita %.2f reais\n", pib_per_capita2);
  
  
