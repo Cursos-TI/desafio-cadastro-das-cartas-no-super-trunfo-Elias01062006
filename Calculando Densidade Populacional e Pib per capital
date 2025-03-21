@@ -75,4 +75,7 @@ getchar();
  float pib_per_capita2 = pib2*
  1000000000 / populacao2;// converte o pib para reais
   
+ // Cálculo das médias
+ float media_pib = (pib1+pib2)/2;
+ int media_populacao = (populacao1+ populacao2) /2;
  
