@@ -38,3 +38,33 @@ printf("informe o número de pontos turisticos da cidade 1");
 scanf("%d", &pontos_turisticos1);
 getchar();
 
+ //carta 2
+ printf("informe o Estado da cidade 2(sigla de 2 letras):");
+ scanf("%2s",estado2);
+ getchar();
+ 
+ printf("Informe o código da cidade 2");
+ scanf("%f",codigo2);
+ getchar();
+ 
+ printf("informe o nome da cidade 2");
+ scanf("%[^\n]",cidade2);
+ getchar();
+ 
+ printf("Informe a população da cidade 2:");
+ scanf("%d", &populacao2);
+ getchar();
+ 
+ printf("informe a área da cidade 2(em km):");
+ scanf("%f", &area2);
+ getchar();
+ 
+ printf("Informe o pib da cidade 2(em bilhões de reais):");
+ scanf("%f", &pib2);
+ getchar();
+ 
+ printf("informe o número de pontos turisticos da cidade 2");
+ scanf("%d", &pontos_turisticos2);
+ getchar();
+ 
+ 
